@@ -1,0 +1,22 @@
+style option        Where               How                 Scope               Basedon
+1-inlinecss           jsx element     style prop           Local jsx ele        css
+
+2-css file            External file    className            Entire app(Global)   css
+
+3-css Modules         one externalfile  className            component            css
+                    per component
+
+
+4-css in js           external js file    style               comp                 js
+
+5- utilty first 
+css 
+tailwind
+
+
+p-1
+pt-1
+p-2
+p-3
+
+
