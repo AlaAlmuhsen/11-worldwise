@@ -20,6 +20,7 @@ export function useFetch(url) {
         setError("");
       } catch (error) {
         setError(error.message);
+        alert(error.message);
       } finally {
         setIsLoading(false);
       }
